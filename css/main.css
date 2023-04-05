@@ -3,6 +3,11 @@
     padding: 0;
     font-family: 'Oswald';
 }
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+}
 
 #navigation {
     width: 100%;
@@ -36,13 +41,12 @@
 }
 
 .number a {
-    border: 3px solid #fff;
-    padding: 3px 6px;
+    padding: 8px 16px;
+    background-color: #d1ad7b;
+    color: #060606;
+    font-size: 18px;
 }
 
-.container {
-
-}
 .main {
 
     background-image: url(../img/header.jpg);
@@ -68,17 +72,74 @@
 .left-main {
     margin: auto 0;
     padding-left: 40px;
+    text-align: left;
+}
+
+.left-main a {
+    padding: 8px 16px;
+    background-color: #d1ad7b;
+    color: #060606;
+    font-size: 18px;
 }
 
 .right-main {
     margin: auto 0;
     padding-right: 40px;
     font-size: 24px;
+    display: flex; 
+    justify-content: space-between;
 }
 .text-center{
     text-align: left;
-
+    margin-bottom: 15px;
 }
+
+.text-first {
+    color: #d1ad7b;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+    margin-bottom: 30px;
+}
+
+.text-second {
+    font-size: 70px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.text-third {
+    max-width: 460px;
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.left-count {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 1;
+    font-family: Oswald, sans-serif;
+    color: #d1ad7b;
+}
+.right-count {
+    margin: auto 0;
+    padding: 10px;
+    text-align: left;
+}
+.right-count > .girl {
+    display: block;
+    font-weight: 500;
+    font-size: 85%;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.right-count > .club {
+    font-weight: 200;
+}
+    
 
 
 
